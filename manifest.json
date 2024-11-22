@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Descargar Video",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "http://localhost:4000/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
